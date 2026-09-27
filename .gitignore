@@ -1,26 +1,6 @@
-# Dependencies
-node_modules/
-.pnpm-store/
-
-# Next.js build outputs
-.next/
-out/
-
-# Test outputs
-coverage/
-
-# TypeScript
-*.tsbuildinfo
-
-# Local environment and secrets
+.sites-runtime/
 .env
 .env.*
 !.env.example
-
-# Local editor and operating-system files
 .DS_Store
-*.swp
-
-# Logs
-*.log
-pnpm-debug.log*
+node_modules/
