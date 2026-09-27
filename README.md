@@ -47,3 +47,17 @@ npm run validate
 ## 发布
 
 `dist/` 是部署目录。Sites 配置保存在 `.openai/hosting.json`，凭证不进入仓库。仓库源码与私有预览的访问范围独立。
+
+## 产品与后续开发文档
+
+- [PRD：产品目标与规则](PRD.md)
+- [新闻搜索、采集与周报收录规范](docs/NEWS_COLLECTION_SPEC.md)
+- [融资核验和统计口径](FINANCING_DASHBOARD_SPEC.md)
+- [31家初始重点公司](docs/INITIAL_WATCHLIST.md)
+- [产品设计](design-document.md)
+- [技术栈](TECH_STACK.md)与[系统架构](architecture.md)
+- [实施计划](implementation-plan.md)与[实际进度](docs/PROGRESS.md)
+- [统一术语与阅读顺序](SPEC.md)
+- [文档来源与调整说明](docs/DOCUMENT_PROVENANCE.md)
+
+这些文档保留参考项目关键要求并适配本项目；自动采集、模型、审核后台及定时发布均为后续计划。原始导入版本保留在 `codex/import-reference` 分支。
